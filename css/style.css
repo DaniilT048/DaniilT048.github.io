@@ -10,6 +10,7 @@ body{
     font-size: 16px;
     box-sizing: border-box;
     font-weight: 400;
+    min-width: 1120px;
 }
 .container{
     max-width: 1120px;
@@ -31,6 +32,7 @@ body{
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
 }
 .description{
     padding-top: 82px;
@@ -46,6 +48,7 @@ body{
     color: var(--text-color);
     padding-bottom: 65px;
     letter-spacing: 0.05em;
+    line-height: 26px;
 }
 .description__button{
     background-color: var(--second-color);
@@ -56,3 +59,70 @@ body{
     letter-spacing: var(--letter-spacing);
 }
 
+.header{
+    margin-bottom: 112px;
+}
+.container h2{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.main__container p{
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 100px;
+}
+
+.dark__background{
+    background-color: var(--second-color);
+    height: 250px;
+    /*margin-bottom: 100px;*/
+}
+
+.main__projectlist{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 100px;
+    padding-top:  100px;
+    color: #FFFFFF;
+}
+
+.main__projectlist--item{
+    height: 50px;
+    width: 141px;
+    background: left no-repeat url("../images/group.png");
+    padding-left: 70px;
+    font-size: 21px;
+    line-height: 25x;
+}
+
+.projectlist__works--project{
+    font-size: 16px;
+    letter-spacing: 0.05em
+}
+.video{
+    margin-bottom: 100px;
+    margin-top: -43px;
+}
+
+.copyright{
+    padding-top: 50px;
+    color: white;
+}
+.copyright__head{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.copyright__text{
+    font-size: 13px;
+    line-height: 21px;
+}
+
+footer .dark__background{
+    height: 151px;
+}
