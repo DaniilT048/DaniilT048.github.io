@@ -13,10 +13,9 @@ body{
     min-width: 1120px;
 }
 .container{
-    padding-left: 15px;
-    padding-right: 15px;
     max-width: 1120px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .header{
     background-color: var(--main-color);
