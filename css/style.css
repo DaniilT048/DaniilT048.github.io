@@ -146,6 +146,10 @@ body{
     margin-top: -43px;
 }
 
+.video-link{
+    display: none;
+}
+
 .copyright{
     padding-top: 50px;
     color: white;
