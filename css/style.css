@@ -103,6 +103,10 @@ body{
     font-size: 16px;
     letter-spacing: 0.05em
 }
+
+.main__item--text{
+    display: none;
+}
 .video{
     margin-bottom: 100px;
     margin-top: -43px;
@@ -131,7 +135,7 @@ footer .dark__background{
     height: 151px;
 }
 
-@media(max-width: 699px){
+@media (max-width: 699px){
     body {
         font-size: 14px;
     }
