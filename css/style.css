@@ -78,7 +78,6 @@ body{
 .dark__background{
     background-color: var(--second-color);
     height: 250px;
-    /*margin-bottom: 100px;*/
 }
 
 .main__projectlist{
@@ -96,7 +95,7 @@ body{
     background: left no-repeat url("../images/group.png");
     padding-left: 70px;
     font-size: 21px;
-    line-height: 25x;
+    line-height: 25px;
 }
 
 .projectlist__works--project{
@@ -135,6 +134,40 @@ footer .dark__background{
     height: 151px;
 }
 
+@media (max-width: 1159px){
+    body {
+        font-size: 16px;
+    }
+    main .dark__background {
+        height: 700px;
+    }
+
+    .main__projectlist {
+        flex-direction: column;
+    }
+
+    .main__item--text {
+        display: inline;
+        font-size: 16px;
+    }
+
+    .main__projectlist--item {
+        width: auto;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .video-link {
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-top: -43px;
+    }
+}
+
 @media (max-width: 699px){
     body {
         font-size: 14px;
@@ -155,14 +188,14 @@ footer .dark__background{
     .description__button {
         padding: 10px 20px;
     }
-    /*body .main__container {*/
-    /*    text-align: right;*/
-    /*}*/
     .dark__background{
         height: 700px;
     }
     .main__projectlist{
         flex-direction: column;
+    }
+    .main__item--text{
+        display: none;
     }
     .video{
         display: none;
@@ -176,37 +209,5 @@ footer .dark__background{
     }
 }
 
-@media (min-width: 700px)and (max-width: 1159px){
-    body {
-        font-size: 16px;
-    }
-        main .dark__background {
-            height: 700px;
-        }
 
-        .main__projectlist {
-            flex-direction: column;
-        }
-
-        .main__item--text {
-            display: inline;
-            font-size: 16px;
-        }
-
-        .main__projectlist--item {
-            width: auto;
-        }
-
-        .video {
-            display: none;
-        }
-
-        .video-link {
-            display: block;
-            font-size: 25px;
-            text-align: center;
-            margin-bottom: 100px;
-            margin-top: -43px;
-        }
-    }
 
